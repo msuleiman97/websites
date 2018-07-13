@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>سلوى للسفر والسياحة | الاستديو</title>
+		<link href="css/jquery.bxslider.css" rel="stylesheet" />
+		<link href="style.css" rel="stylesheet">
+		<link href="css/nav.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/lightbox.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/icon.png">
+
+   <style>
+        /*start lightbox style*/
+    body:after {
+  content: url(../img/close.png) url(../img/loading.gif) url(../img/prev.png) url(../img/next.png);
+  display: none;
+}
+
+
+body.lb-disable-scrolling {
+  overflow: hidden;
+}
+
+.lightboxOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  background-color: black;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+  opacity: 0.8;
+  display: none;
+}
+
+.lightbox {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  z-index: 10000;
+  text-align: center;
+  line-height: 0;
+  font-weight: normal;
+
+}
+
+.lightbox .lb-image {
+  display: block;
+  height: auto;
+  max-width: inherit;
+  max-height: none;
+  border-radius: 3px;
+
+  /* Image border */
+  border: 4px solid white;
+ box-sizing: border-box;
+width: 100%;
+
+}
+    /*end lightbox style*/
+    
+    /* hover style*/
+    .gallery a{
+        float: left;
+        /*width:50%;*/
+        padding-right: 5%;
+        padding-left: 11%;
+        padding-bottom: 4%;
+        box-sizing: border-box;
+        width: 50%;
+    }
+    .gallery img{
+        width: 100%;
+        border:3px solid #46baed;
+        display: block;
+        transition: all.2s ease-in-out;
+    }
+
+    .gallery img:hover {
+        transform: scale(1) rotate(2deg);
+        box-shadow: 0 0 7px rgda( 0, 0, .5);
+    }
+    .gallery:hover img{
+        transition: scale(.97);
+    }
+ 
+    
+    /*hover  end*/    
+        
+        
+    </style>
+	</head>
+<body>
+    <div id="continer">
+        <header >
+            <div id="callout">
+                <h3>&#9742; +249-183-525958</h3>
+            </div>
+            
+            <div id="logo">
+            <a href="index.html"><img src="img/last1.jpg" width="200" height="200"/></a>
+            </div>
+        </header>
+<!--- end header -->
+        <div id="clearfix"></div>
+        
+<!--- start nav and slider -->
+        <nav>
+          <div class="menu-icon">
+             <i class="fa fa-bars" aria-hidden="true"></i>
+
+          
+          </div>
+          <ul >
+         
+             <li ><a href="index.html">الرئسية</a></li>
+             <li><a href="aboutus.html">من نحن</a></li>
+             <li><a href="services.html">خدماتنا </a></li>
+             <li><a href="gallery.html">الاستديو </a></li>
+             <li><a href="contact.html">تواصل معنا</a></li>
+        </ul>
+        </nav>
+           <div id="clearfix"></div>
+           <!-- end nav-->
+<!--- start gallery-->
+        <div id="our-gallery">
+          
+        <div class="gallery" >
+        <a href="img/01.jpg" data-lightbox="gallery" data-title="مكة المكرمة" ><img src="img/01crop.jpg"   ></a>
+        <a href="img/022.jpg" data-lightbox="gallery" data-title="المدينة المنورة" ><img src="img/02crop.jpg" ></a>
+        <a href="img/06.jpg" data-lightbox="gallery" data-title="السودان " ><img src="img/06crop.jpg" ></a>
+        <a href="img/03.jpg" data-lightbox="gallery" data-title="دبي" ><img src="img/03crop.jpg" ></a>
+         <a href="img/05.jpg" data-lightbox="gallery" data-title="جزر المالديف" ><img src="img/05crop.jpg" ></a>
+        
+        
+        </div>
+    
+    
+
+        
+</div>
+        
+<!--- end gallery-->
+    <div class="clearfix"></div>
+    
+<!--- footer start here-->
+        
+     <div id="copyright">
+                 <p class="copyright">&copy;copyright 2017 .<a href="Mldesign.com" class="design"> mldesign.com</a></p>
+
+        
+         
+         
+     </div>
+<!--- footer end here-->
+    </div>
+<!---continer end here-->
+            <script type="text/javascript" src="js/lightbox-plus-jquery.js"></script>
+             <script type="text/javascript" src="js/script.js"></script>
+            <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+
+
+	</body>
+</html>

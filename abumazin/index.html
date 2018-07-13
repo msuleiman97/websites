@@ -1,0 +1,352 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>أبو مازن|الرئسية</title>
+		<link href="css/style.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" type="image/png" href="img/title.png">
+        <link href="css/font-awesome.min.css" rel="stylesheet"/>
+        <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+       <script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+        <link href="css/sliderstyle.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Amiri|Cairo|Scheherazade" rel="stylesheet">
+        <link rel="icon" type="image/png" href="img/cropedimg2.png">
+        <link rel="stylesheet" href="css/stylenav.css">
+    <style>
+        banner{
+            width: 100%;
+        }
+        /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 22 css */
+        /*
+        .jssora22l                  (normal)
+        .jssora22r                  (normal)
+        .jssora22l:hover            (normal mouseover)
+        .jssora22r:hover            (normal mouseover)
+        .jssora22l.jssora22ldn      (mousedown)
+        .jssora22r.jssora22rdn      (mousedown)
+        .jssora22l.jssora22lds      (disabled)
+        .jssora22r.jssora22rds      (disabled)
+        */
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('img/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+        .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+        .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+    </style>
+    
+    
+    
+    </head>
+    <body>
+        
+   <!-- #region Jssor Slider Begin -->
+    <script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
+    <script src="js/jssor.slider-23.1.0.mini.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+
+            var jssor_1_SlideoTransitions = [
+              [{b:900,d:2000,x:-379,e:{x:7}}],
+              [{b:900,d:2000,x:-379,e:{x:7}}],
+              [{b:-1,d:1,o:-1,sX:2,sY:2},{b:0,d:900,x:-171,y:-341,o:1,sX:-2,sY:-2,e:{x:3,y:3,sX:3,sY:3}},{b:900,d:1600,x:-283,o:-1,e:{x:16}}]
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $(window).bind("load", ScaleSlider);
+            $(window).bind("resize", ScaleSlider);
+            $(window).bind("orientationchange", ScaleSlider);
+            /*responsive code end*/
+        });
+    </script>
+        
+<!-- start mq nav-->
+        <logo>
+             <div class="call"><p>
+&#9742;+249&nbsp;912&nbsp;312&nbsp;133</p></div>
+            <div class="logo1">
+            <img src="img/Abu-Mazin-(logo)white-new.png">
+            </div>
+        
+        </logo>
+        <nav>
+
+          <div class="menu-icon">
+             <img src="img/01.png" id="right">
+              
+              
+          
+          </div>
+          <ul >
+             <li ><a href="index.html" >الرئسية</a></li>
+             <li><a href="aboutus.html" >من نحن</a></li>
+             <li><a href="services.html"  >خدامتنا</a></li>
+             <li><a href="partener.html"  >شركائنا</a></li>
+             <li><a href="contact.html" >تواصل معنا</a></li>
+        </ul>
+             
+                     
+        
+        
+      </nav>
+    <!-- end mq nav-->
+    <!-- start nav-->
+ <navigation>
+     <div id="nav-full">
+          <div class="inner">
+           <div id="navbar">
+            <a href="index.html" class="linkref active">الرئسية</a>
+            <a href="aboutus.html" class="linkref" >من نحن</a>
+            <a href="services.html" class="linkref" >خدامتنا</a>
+            <a href="partener.html" class="linkref" >شركائنا</a>
+            <a href="contact.html" class="linkref" >تواصل معنا</a>
+           </div>
+          <a href="index.html"> <img src="img/Abu-Mazin-(logo)white-new.png" height="90" width="150"></a>
+        </div>
+         </div>
+        </navigation>
+    <!--- end nav -->
+    
+    <!--- start banner -->
+    <banner>
+        <div class="inner">
+<div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" style="position:absolute;top:0px;left:0px;background-color:rgba(0,0,0,0.7);">
+            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+            <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:1300px;height:500px;overflow:hidden;">
+            <div>
+                <img data-u="image" src="img/hajjimgs.gif" />
+            </div>
+            <div>
+                <img data-u="image" src="img/jobimgs.gif" />
+            </div>
+            <div>
+                <img data-u="image" src="img/visaimgs.jpg" />
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+        <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
+    </div>
+       
+    </div>
+    </banner>
+    <!--- end banner -->
+        
+    <!--- start content -->
+    <content>
+       <section >
+            <div class="inner">
+                <div id="content-div1">
+                    <center>
+                    <section class="one-third">
+                        <img src="img/job.png">
+                        <h2> عقودات عمل</h2>
+                        <p>مكتب إبو مازن للإستخدام الخارجي يقدم عقودات عمل داخل وخارج السودان وبشكل  خاص في  المملكة العربية السعودية </p>
+                    </section>
+                    <section class="one-third">
+                        <img src="img/hajj.png">
+                        <h2>خدمات الحج والعمرة</h2>
+                        <p>لدينا أفضل عروض الحج والعمرة الي بيت الله الحرم . حيث نوفر كل سبل الراحة الى زوار بيت الله الحرم</p>
+                    </section>          
+                    <section class="one-third">
+                        <img src="img/visa.png">
+                        <h2>إستخراج تأشيرات</h2>
+                        <p>نقدم لكم  خدمة إستخراج تأشيرات الدخول الى الدول الأجنبية ، وإستخراج الشهادات . ايضا خدمات الإستقدام الفردي والعائلي</p>
+                    </section>
+                        </center>
+            </div>
+              <!--- border -->  
+                <div class="border">
+                
+                <div class="cont-q cont-div2">
+                    <h2> من نحن ؟ </h2>
+                    <img src="img/aboutus_imageresltion.jpg">
+                    <p> 
+مكتب أبو مأزن للإستخدام الخارجي  هو مكتب سوداني
+ معتمد من مكتب العمل والسفارة السعودية ، حيث يقدم المكتب خدمات الحج والعمرة الي بيت 
+الله الحرام وعقودات عمل في المملكة العربية السعودية ، كما ايضا يقدم
+خدمات إستخراج تأشيرات دخول وإستخراج الشهادت والإستقدام الفردي والعائلي 
+                      </p>                     
+
+                     <center> <p class="botton"><a href="aboutus.html">اقرأ المزيد</a></p></center>
+                </div>
+                  <div class="cont-q cont-div3"  >
+                      <h2>لماذا نحن ؟</h2>
+                      <img src="img/whyusresoultion.jpg">
+          <p>
+مكتب أبو مازن للإستخدام الخارجي يعد كأفضل وأكثر مكتب إستخدامي خارجي متميز  في السودان <br>وذلك لما يقدمه من خدمات متميزة في كل ما يتعلق بالسفروالحج والعمرة ، وتوفير عقودات عمل والإستقدام الفردي والعائلي ،ايضا إستخراج وتوثيق الشهادات
+                      </p>
+
+                     <center> <p class="botton"><a href="aboutus.html">اقرأ المزيد</a></p></center>
+                    </div>
+                <div class="cont-q cont-div4">
+                    <h2>مركز المساعدة</h2>
+                    <p style=" style="text-align:justify>                       
+                
+لدينا  موظفين ذو كفاءة عالية وخبرة  
+حيث يقدمون الدعم والحلول الى عملائنا الكرام ،
+إذا كان لديك أي إستفسار او تحتاج الى معلومات أكثر عن
+ خدماتنا يمكنك التواصل معنا  عبر أرقامنا الموجودة اسفل </p>
+                     
+                </div>
+                    </div>
+                </div>
+        </section>
+    </content>
+    <!---end content -->
+        
+
+    <!--- start footer -->
+    <footer>
+       <section class="footer">
+           
+          <div class="inner">
+            <div class="our-pill">
+               <center><section>
+                  <h2> رؤيتنا المستقبلية</h2>
+                    <p>رؤيتنا في أبو مازن للإستخدام الخارجي 
+أن نكون المكتب الرائد في خدمات الحج والعمرة وعقودات العمل والإستقدام  لنساهم في نهضة وتطوير مجتمعنا <br>
+ولنا اهدف متميزة نود تحقيقها  ضمن رؤيتنا المتكاملة للمستقبل وهي
+                      </p>
+                    <ul>
+                      <li>أن نلتزم بالتميز بخدمة عملائنا الكرام&nbsp;<i class="fa fa-check" aria-hidden="true">&nbsp;</i>&nbsp;</li>
+                      <li>أن نقدم احدث الخدمات لزبائننا&nbsp;<i class="fa fa-check" aria-hidden="true">&nbsp;</i>&nbsp;</li>
+
+                      <li>تطوير تجربتنا لنكون المفضلين لدى عملائنا&nbsp;<i class="fa fa-check" aria-hidden="true">&nbsp;</i>&nbsp;</li>
+ 
+                    </ul>
+                   
+               </section>
+                   </center>
+                
+            </div>
+              <center>
+            <div class="social-i">
+                <h2>: تواصل معنا</h2>
+               <ul class="social-list">
+                   
+                  <li><a href="https://www.facebook.com/abumazin232/?ref=br_tf" target="blank"><i class="fa fa-facebook-square"></i></a></li>
+                   <li><a href="https://twitter.com/testagency232" target="blank"><i class="fa fa-twitter"></i></a></li>
+                   <li><a href="https://www.instagram.com/testagency232/" target="blank"><i class="fa fa-instagram"></i></a></li>
+                   
+       
+              </ul> 
+                <div id="test-logo">
+                    
+             <a href="http://testourism.com/" target="_blank"> <img src="img/Test-(logo)bot.png" width="120" height="100"></a>
+                
+                </div>
+            </div>
+              </center>
+            <div class="info">
+             <h2>معلومات الإتصال </h2>
+                 <i class="fa fa-map-marker" aria-hidden="true"></i><p>الخرطوم-السودان -السوق العربي <br> الخرطوم -  فرع الطائف</p><br />
+                 <i class="fa fa-phone" aria-hidden="true"></i><p>
++249&nbsp;912&nbsp;312&nbsp;133</p><br />
+                 <i class="fa fa-whatsapp" aria-hidden="true"></i><p>+249&nbsp;123&nbsp;400&nbsp;244 - +246&nbsp;123&nbsp;400&nbsp;245</p>
+                 <br /><i class="fa fa-envelope" aria-hidden="true"></i><p>info@abumazin.com</p>
+                
+       <!-- <p class="designby">Design by:
+        <a href="Mldesign.com" class="design">ML design</a></p>-->
+              
+            </div>
+          </div>
+           
+        </section>
+        
+    </footer>
+    <!--- end footer -->
+    <copyright>
+        <div id="copyright2">
+        <div class="inner ">
+        <p class="right">&copy;copyright 2017 . All right reserved <span class="bold"><a href="www.ms7design.com">ms7design</a></span></p>
+        <p class="left">POWERED BY: <a href="www.ms7design.com">ms7design</a></p>
+        </div>
+      </div>
+    </copyright>
+    
+        <!-- nav js -->
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <!-- nav js --> 
+    </body>
+    </html>
